@@ -114,7 +114,7 @@ if uploaded_file is not None:
     image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
     
     st.header("Citra Asli")
-    st.image(image_rgb, caption='Gambar yang diunggah', use_column_width=False, width=400)
+    st.image(image_rgb, caption='Gambar yang diunggah', width=400)
     
     st.markdown("---") # Garis pemisah
     
