@@ -95,7 +95,7 @@ def plot_histograms(image):
 # --- TAMPILAN UTAMA APLIKASI STREAMLIT ---
 
 st.set_page_config(layout="wide")
-st.title("Aplikasi Analisis Histogram Citra")
+st.title("COLOR Historygram Analyzer")
 st.write("Dibuat untuk tugas mata kuliah Pengolahan Citra.")
 st.write("Unggah sebuah gambar (JPG, PNG, JPEG) untuk melihat histogram normal dan ternormalisasi, baik untuk versi grayscale maupun berwarna.")
 
